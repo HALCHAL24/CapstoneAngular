@@ -1,0 +1,292 @@
+
+{
+  "header": {
+    "reportVersion": 1,
+    "event": "Allocation failed - JavaScript heap out of memory",
+    "trigger": "FatalError",
+    "filename": "report.20200618.145835.3628.0.001.json",
+    "dumpEventTime": "2020-06-18T14:58:35Z",
+    "dumpEventTimeStamp": "1592506715310",
+    "processId": 3628,
+    "cwd": "I:\\Capstone",
+    "commandLine": [
+      "node",
+      "C:\\Users\\Admin\\AppData\\Roaming\\npm\\\\node_modules\\@angular\\cli\\bin\\ng",
+      "serve"
+    ],
+    "nodejsVersion": "v12.13.0",
+    "wordSize": 32,
+    "arch": "ia32",
+    "platform": "win32",
+    "componentVersions": {
+      "node": "12.13.0",
+      "v8": "7.7.299.13-node.12",
+      "uv": "1.32.0",
+      "zlib": "1.2.11",
+      "brotli": "1.0.7",
+      "ares": "1.15.0",
+      "modules": "72",
+      "nghttp2": "1.39.2",
+      "napi": "5",
+      "llhttp": "1.1.4",
+      "http_parser": "2.8.0",
+      "openssl": "1.1.1d",
+      "cldr": "35.1",
+      "icu": "64.2",
+      "tz": "2019a",
+      "unicode": "12.1"
+    },
+    "release": {
+      "name": "node",
+      "lts": "Erbium",
+      "headersUrl": "https://nodejs.org/download/release/v12.13.0/node-v12.13.0-headers.tar.gz",
+      "sourceUrl": "https://nodejs.org/download/release/v12.13.0/node-v12.13.0.tar.gz",
+      "libUrl": "https://nodejs.org/download/release/v12.13.0/win-x86/node.lib"
+    },
+    "osName": "Windows_NT",
+    "osRelease": "6.1.7601",
+    "osVersion": "Windows 7 Ultimate Service Pack 1",
+    "osMachine": "i686",
+    "cpus": [
+      {
+        "model": "Intel(R) Core(TM) i5 CPU       M 560  @ 2.67GHz",
+        "speed": 2666,
+        "user": 400142,
+        "nice": 0,
+        "sys": 97469,
+        "idle": 665266,
+        "irq": 2012
+      },
+      {
+        "model": "Intel(R) Core(TM) i5 CPU       M 560  @ 2.67GHz",
+        "speed": 2666,
+        "user": 55364,
+        "nice": 0,
+        "sys": 25802,
+        "idle": 1080993,
+        "irq": 6193
+      },
+      {
+        "model": "Intel(R) Core(TM) i5 CPU       M 560  @ 2.67GHz",
+        "speed": 2666,
+        "user": 345401,
+        "nice": 0,
+        "sys": 92555,
+        "idle": 724078,
+        "irq": 5662
+      },
+      {
+        "model": "Intel(R) Core(TM) i5 CPU       M 560  @ 2.67GHz",
+        "speed": 2666,
+        "user": 39733,
+        "nice": 0,
+        "sys": 13540,
+        "idle": 1108636,
+        "irq": 5226
+      }
+    ],
+    "networkInterfaces": [
+      {
+        "name": "Loopback Pseudo-Interface 1",
+        "internal": true,
+        "mac": "00:00:00:00:00:00",
+        "address": "::1",
+        "netmask": "ffff:ffff:ffff:ffff:ffff:ffff:ffff:ffff",
+        "family": "IPv6",
+        "scopeid": 0
+      },
+      {
+        "name": "Loopback Pseudo-Interface 1",
+        "internal": true,
+        "mac": "00:00:00:00:00:00",
+        "address": "127.0.0.1",
+        "netmask": "255.0.0.0",
+        "family": "IPv4"
+      }
+    ],
+    "host": "HalchalSahu"
+  },
+  "javascriptStack": {
+    "message": "No stack.",
+    "stack": [
+      "Unavailable."
+    ]
+  },
+  "nativeStack": [
+  ],
+  "javascriptHeap": {
+    "totalMemory": 237895680,
+    "totalCommittedMemory": 237895680,
+    "usedMemory": 229692328,
+    "availableMemory": 6298860,
+    "memoryLimit": 238026752,
+    "heapSpaces": {
+      "read_only_space": {
+        "memorySize": 262144,
+        "committedMemory": 262144,
+        "capacity": 262008,
+        "used": 22100,
+        "available": 239908
+      },
+      "new_space": {
+        "memorySize": 4194304,
+        "committedMemory": 4194304,
+        "capacity": 2096064,
+        "used": 978520,
+        "available": 1117544
+      },
+      "old_space": {
+        "memorySize": 162861056,
+        "committedMemory": 162861056,
+        "capacity": 162622748,
+        "used": 159908476,
+        "available": 2714272
+      },
+      "code_space": {
+        "memorySize": 2260992,
+        "committedMemory": 2260992,
+        "capacity": 1763936,
+        "used": 1763936,
+        "available": 0
+      },
+      "map_space": {
+        "memorySize": 2625536,
+        "committedMemory": 2625536,
+        "capacity": 1517120,
+        "used": 1517120,
+        "available": 0
+      },
+      "large_object_space": {
+        "memorySize": 65101824,
+        "committedMemory": 65101824,
+        "capacity": 64988960,
+        "used": 64988960,
+        "available": 0
+      },
+      "code_large_object_space": {
+        "memorySize": 589824,
+        "committedMemory": 589824,
+        "capacity": 513216,
+        "used": 513216,
+        "available": 0
+      },
+      "new_large_object_space": {
+        "memorySize": 0,
+        "committedMemory": 0,
+        "capacity": 2096064,
+        "used": 0,
+        "available": 2096064
+      }
+    }
+  },
+  "resourceUsage": {
+    "userCpuSeconds": 87.422,
+    "kernelCpuSeconds": 7.254,
+    "cpuConsumptionPercent": 70.1304,
+    "maxRss": 304803840,
+    "pageFaults": {
+      "IORequired": 203323,
+      "IONotRequired": 0
+    },
+    "fsActivity": {
+      "reads": 6241,
+      "writes": 1
+    }
+  },
+  "libuv": [
+  ],
+  "environmentVariables": {
+    "": "::=::\\",
+    "": "C:=C:\\Program Files\\Notepad++",
+    "": "I:=I:\\Capstone",
+    "ALLUSERSPROFILE": "C:\\ProgramData",
+    "APPDATA": "C:\\Users\\Admin\\AppData\\Roaming",
+    "BROWSERSLIST_IGNORE_OLD_DATA": "1",
+    "CommonProgramFiles": "C:\\Program Files\\Common Files",
+    "COMPUTERNAME": "HALCHALSAHU",
+    "ComSpec": "C:\\Windows\\system32\\cmd.exe",
+    "dp0": "C:\\Users\\Admin\\AppData\\Roaming\\npm\\",
+    "FP_NO_HOST_CHECK": "NO",
+    "HOMEDRIVE": "C:",
+    "HOMEPATH": "\\Users\\Admin",
+    "JAVA_HOME": "C:\\Program Files\\Java\\jdk1.8.0_201",
+    "LOCALAPPDATA": "C:\\Users\\Admin\\AppData\\Local",
+    "LOGONSERVER": "\\\\HALCHALSAHU",
+    "MAVEN": "C:\\Program Files\\apache-maven-3.6.3\\bin",
+    "MAVEN_HOME": "C:\\Program Files\\apache-maven-3.6.3",
+    "NUMBER_OF_PROCESSORS": "4",
+    "OS": "Windows_NT",
+    "Path": "C:\\Program Files\\Java\\jdk1.8.0_201\\bin;C:\\Program Files\\apache-maven-3.6.3\\bin;C:\\Program Files\\nodejs\\;C:\\Users\\Admin\\AppData\\Roaming\\npm;C:\\Users\\Admin\\AppData\\Local\\Programs\\Microsoft VS Code\\bin",
+    "PATHEXT": ".COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JSE;.WSF;.WSH;.MSC",
+    "PROCESSOR_ARCHITECTURE": "x86",
+    "PROCESSOR_IDENTIFIER": "x86 Family 6 Model 37 Stepping 5, GenuineIntel",
+    "PROCESSOR_LEVEL": "6",
+    "PROCESSOR_REVISION": "2505",
+    "ProgramData": "C:\\ProgramData",
+    "ProgramFiles": "C:\\Program Files",
+    "PROMPT": "$P$G",
+    "PSModulePath": "C:\\Windows\\system32\\WindowsPowerShell\\v1.0\\Modules\\",
+    "PUBLIC": "C:\\Users\\Public",
+    "SESSIONNAME": "Console",
+    "SystemDrive": "C:",
+    "SystemRoot": "C:\\Windows",
+    "TEMP": "C:\\Users\\Admin\\AppData\\Local\\Temp",
+    "TMP": "C:\\Users\\Admin\\AppData\\Local\\Temp",
+    "USERDOMAIN": "HALCHALSAHU",
+    "USERNAME": "Admin",
+    "USERPROFILE": "C:\\Users\\Admin",
+    "WEBPACK_DEV_SERVER": "true",
+    "windir": "C:\\Windows",
+    "_prog": "node"
+  },
+  "sharedObjects": [
+    "C:\\Program Files\\nodejs\\node.exe",
+    "C:\\Windows\\SYSTEM32\\ntdll.dll",
+    "C:\\Windows\\system32\\kernel32.dll",
+    "C:\\Windows\\system32\\KERNELBASE.dll",
+    "C:\\Windows\\system32\\dbghelp.dll",
+    "C:\\Windows\\system32\\msvcrt.dll",
+    "C:\\Windows\\system32\\WS2_32.dll",
+    "C:\\Windows\\system32\\RPCRT4.dll",
+    "C:\\Windows\\system32\\NSI.dll",
+    "C:\\Windows\\system32\\ADVAPI32.dll",
+    "C:\\Windows\\SYSTEM32\\sechost.dll",
+    "C:\\Windows\\system32\\USER32.dll",
+    "C:\\Windows\\system32\\GDI32.dll",
+    "C:\\Windows\\system32\\LPK.dll",
+    "C:\\Windows\\system32\\USP10.dll",
+    "C:\\Windows\\system32\\IPHLPAPI.DLL",
+    "C:\\Windows\\system32\\WINNSI.DLL",
+    "C:\\Windows\\system32\\PSAPI.DLL",
+    "C:\\Windows\\system32\\USERENV.dll",
+    "C:\\Windows\\system32\\profapi.dll",
+    "C:\\Windows\\system32\\CRYPT32.dll",
+    "C:\\Windows\\system32\\MSASN1.dll",
+    "C:\\Windows\\system32\\bcrypt.dll",
+    "C:\\Windows\\system32\\WINMM.dll",
+    "C:\\Windows\\system32\\IMM32.DLL",
+    "C:\\Windows\\system32\\MSCTF.dll",
+    "C:\\Windows\\system32\\powrprof.dll",
+    "C:\\Windows\\system32\\SETUPAPI.dll",
+    "C:\\Windows\\system32\\CFGMGR32.dll",
+    "C:\\Windows\\system32\\OLEAUT32.dll",
+    "C:\\Windows\\system32\\ole32.dll",
+    "C:\\Windows\\system32\\DEVOBJ.dll",
+    "C:\\Windows\\system32\\uxtheme.dll",
+    "C:\\Windows\\system32\\mswsock.dll",
+    "C:\\Windows\\System32\\wshtcpip.dll",
+    "C:\\Windows\\System32\\wship6.dll",
+    "C:\\Windows\\system32\\bcryptprimitives.dll",
+    "C:\\Windows\\system32\\dhcpcsvc.DLL",
+    "C:\\Windows\\system32\\dhcpcsvc6.DLL",
+    "C:\\Windows\\system32\\NLAapi.dll",
+    "C:\\Windows\\system32\\napinsp.dll",
+    "C:\\Windows\\system32\\pnrpnsp.dll",
+    "C:\\Windows\\system32\\DNSAPI.dll",
+    "C:\\Windows\\System32\\winrnr.dll",
+    "C:\\Windows\\system32\\cryptbase.dll",
+    "C:\\Windows\\system32\\rasadhlp.dll",
+    "C:\\Windows\\System32\\fwpuclnt.dll",
+    "C:\\Windows\\system32\\apphelp.dll"
+  ]
+}
